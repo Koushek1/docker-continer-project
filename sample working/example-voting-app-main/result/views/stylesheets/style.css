@@ -1,5 +1,4 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-
 *{
   box-sizing:border-box;
 }
@@ -13,7 +12,6 @@ body{
   opacity:0;
   transition: all 1s linear;
 }
-
 .divider{
   height: 150px;
   width:2px;
@@ -23,15 +21,12 @@ body{
   float: left;
   transform: translateY(-50%);
 }
-
 #background-stats-1{
   background-color: #2196f3;
 }
-
 #background-stats-2{
   background-color: #00cbca;
 }
-
 #content-container{
   z-index:2;
   position:relative;
@@ -74,7 +69,6 @@ body{
   outline:0;
   text-decoration:underline;
 }
-
 #choice .choice{
   width: 49%;
   position: relative;
@@ -83,30 +77,14 @@ body{
   text-align: left;
   padding-left: 50px;
 }
-
 #choice .choice .label{
   text-transform: uppercase;
 }
-
-#choice .choice.dogs{
+#choice .choice.workfromoffice{
   color: #00cbca;
   float: right;
 }
-
-#choice .choice.cats{
+#choice .choice.workfromhome{
   color: #2196f3;
   float: left;
-}
-#background-stats{
-  z-index:1;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-#background-stats div{
-  transition: width 400ms ease-in-out;
-  display:inline-block;
-  margin-bottom:-4px;
-  width:50%;
-  height:100%;
 }
